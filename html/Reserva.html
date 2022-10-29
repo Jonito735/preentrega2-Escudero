@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../Multimedia/favicon-32x32.png">
+    <title>Ginecospot - Reservas</title>
+
+</head>
+<body>
+    <header>
+        <img id="banner" src="../Multimedia/Header.png" alt="cabeza">
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html">Home</a>
+            </li>
+            <li>
+                <a href="Servicios.html">Servicios</a>
+            </li>
+            <li>
+                <a href="Reserva.html">Reservá tu turno</a> 
+            </li>
+            <li>
+                <a href="Blog.html">Blog</a>
+            </li>
+            <li>
+                <a href="Contacto.html">Contacto</a>
+            </li>
+        </ul>
+
+
+
+    </nav>
+    <Main id="reservas">
+        <h1 class="reservatu">Reserva de turnos</h1>
+
+        <form action="">
+
+            <div>
+                <label for="nombre">Nombre</label>
+                <input type="text" placeholder="ingrese su nombre" id="nombre">
+            </div>
+
+            <div>
+                <label for="apellido">Apellido</label>
+                <input type="text" placeholder="ingrese su apellido" id="apellido">
+            </div>
+            
+            <div>
+                <label for="dni">DNI</label>
+                <input type="number" placeholder="ingrese su número documento" id="dni">
+            </div>
+            <div>
+                <label for="correo">Correo Electrónico</label>
+                <input type="email" placeholder="ingrese su dirección de correo" id="correo">
+            </div>
+            <div>
+                <label for="cobertura">Seguro Médico</label>
+                <input type="radio" name="cobertura" id="cobertura">
+                <label for="particular">Particular</label>
+                <input type="radio" name="cobertura" id="particular">
+            </div>
+            <div>
+                <label for="servicios">Servicio a reservar</label>
+                <select name="" id="">
+                    <option value="">Consulta General</option>
+                    <option value="">Ecografía</option>
+                    <option value="">Anticoncepción</option>
+                    <option value="">Cirugías</option>
+                </select>
+            </div>
+            <div>
+                <label for="fecha">Escoger fecha</label>
+                <input type="date" id="fecha">
+            </div>
+            <div>
+                <label for="Hora">Escoger horario</label>
+                <input type="time" id="Hora">
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="aceptar">Acepto términos y condiciones de Ginecospot</label>
+            </div>
+                
+        </form>
+
+        <button type="button" class="btn btn-primary">Reservar</button>
+
+
+
+
+    </Main>
+    <Footer class="button">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </Footer>
+
+    <script src="https://kit.fontawesome.com/5e395e6272.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
