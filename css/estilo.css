@@ -2,32 +2,21 @@ body{
     margin: 0;
     padding: 0;
 }
+header{
+    line-height: 0;
+}
 #banner{
     height: auto;
     width: 100%;
 }
-nav{
-    background-color: #9f4aa5;
-    height: auto;
-    width: 100%;
-    margin: 0px;
+.navbar-brand{
+    height: 110px;
+    padding: 0;
+    margin-right: 30px;
 
 }
-
-ul{
-    height: 50px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 0;
-}
-a{
-    color: white;
-    font-family: 'Lexend', sans-serif;
-    font-size: large;
-    text-decoration: none;
+.nav-link{
+    color: #9f4aa5;
 }
 
 Main{
@@ -70,6 +59,7 @@ button{
     justify-items: center;
     text-align: center;
     height: 625px;
+    border-bottom: #9f4aa5;
     
 }
 #contactcontact{
@@ -149,6 +139,13 @@ footer{
     footer{
         height: 75px;
     }
+    .navbar-brand{
+        width: 215px;
+        height: 60px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-right: 0px;
+    }
     .button i{
         text-decoration: none;
         font-size: 20px;
@@ -160,11 +157,8 @@ footer{
         color:#9f4aa5;
         transition: all .4s ease-in-out;
         }
-    
-    ul{
-        flex-direction: column;
-        height: auto;
-        align-items: flex-start;
+    .formulario{
+        font-size: 14px;
     }
 
     a{
